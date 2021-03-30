@@ -145,6 +145,7 @@ const Content = ({ listView, onChangeData, checkValidData, isClickSubmit }) => {
 				onChange={handleChangeView}
 				activeKey={activeView}
 				onEdit={onEdit}
+				size='small'
 			>
 				{listView.map((view, index) => (
 					<TabPane key={index} closable={false} tab={`View ${index}`}>
