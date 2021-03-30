@@ -111,8 +111,10 @@ const Content = ({ listView, onChangeData, checkValidData, isClickSubmit }) => {
 		const newState = [...listView];
 		newState[indexView].templateId = templateId;
 		newState[indexView].isVerify = false;
-		if (templateId == DEFAULT_TEMPLATE_ID) newState[indexView].data = [];
-		else
+		newState[indexView].isValid = false;
+		if (templateId == DEFAULT_TEMPLATE_ID) {
+			newState[indexView].data = [];
+		} else
 			newState[indexView].data = listTemplate.find(
 				(template) => template.templateId === templateId
 			).fields;
