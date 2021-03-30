@@ -9,7 +9,7 @@ import './index.scss';
 const { TabPane } = Tabs;
 
 const FormBasic = () => {
-	const [activeTab, setActiveTab] = useState('2');
+	const [activeTab, setActiveTab] = useState('1');
 	const [isClickSubmit, setIsClickSubmit] = useState(false);
 	const [dataTabOne, setDataTabOne] = useState({ name: '', title: '' });
 	const [dataTabTwo, setDataTabTwo] = useState([{ ...defaultStateTabTwo }]);
