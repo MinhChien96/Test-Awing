@@ -1,0 +1,22 @@
+.input-content {
+	.label {
+		margin-bottom: 5px;
+	}
+
+	.has-text-danger {
+		color: red;
+	}
+
+	.is-error {
+		border-color: red;
+
+		&:focus {
+			border-color: red;
+			box-shadow: none;
+		}
+
+		&:hover {
+			border-color: red;
+		}
+	}
+}

@@ -1,0 +1,44 @@
+.form-basic {
+	.field {
+		margin-top: 10px;
+		max-width: 400px;
+	}
+
+	.content {
+		min-height: 450px;
+	}
+
+	.is-flex {
+		display: flex;
+	}
+
+	.center-vertical {
+		align-items: center;
+	}
+
+	.center-horizontal {
+		justify-content: center;
+	}
+
+	.pd-10 {
+		padding: 10px;
+	}
+
+	.pd-right-10 {
+		padding-right: 10px;
+	}
+
+	.pd-left-10 {
+		padding-left: 10px;
+	}
+
+	.has-text-danger {
+		color: red;
+	}
+
+	.is-error {
+		.ant-select-selector {
+			border-color: red !important;
+		}
+	}
+}
